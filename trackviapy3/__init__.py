@@ -1,7 +1,7 @@
 import logging
 
 from requests import Request, Session
-from trackvia_exception import TrackViaException
+from .trackvia_exception import TrackViaException
 
 class TrackVia:
     def __init__(self, user_key, token="", base_url="https://go.trackvia.com:443"):
