@@ -14,7 +14,7 @@ Note, the API is only available for Enterprise level accounts
 
 ### Install via pip
 ```bash
-pip install trackvia-py3
+pip install trackviapy3
 ```
 
 ### Install from source
@@ -40,4 +40,4 @@ records = [record1, record2]
 trackvia.create_record(3, records)
 ```
 
-for more information, you can use pydoc on the command line to read the documentation `pydoc trackvia-py3`
+for more information, you can use pydoc on the command line to read the documentation `pydoc trackviapy3`
